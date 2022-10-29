@@ -54,7 +54,7 @@ var questions=[
 function play(ques, ans) {
   var userans = read.question(ques);
 
-  if (userans.toUpperCase() === ans.toUpperCase()) { // branching
+  if (userans.toUpperCase() === ans.toUpperCase()) { 
     console.log("right!");
     score = score + 1;
     
